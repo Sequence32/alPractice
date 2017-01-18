@@ -1,0 +1,15 @@
+<Device Model="RMC3">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-RFGW-EX (Shared Ethernet)" DeviceId="04">
+         <Network Type="RF">
+            <Device Model="HR-100" DeviceId="10"/>
+         </Network>
+      </Device>
+      <Device Model="XPanel 2.0 Smart Graphics" DeviceId="05" Name="XPanel Media Player"/>
+      <Device Model="TSW-1052" DeviceId="06" Name="TSW-1052 Media Player"/>
+      <Device Model="TSW-1060" DeviceId="07" Name="TSW-1060 Media Player"/>
+      <Device Model="TSW-752" DeviceId="08" Name="TSW-752 Media Player"/>
+      <Device Model="Crestron App" DeviceId="09"/>
+   </Network>
+</Device>

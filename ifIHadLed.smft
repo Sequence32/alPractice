@@ -1,0 +1,6 @@
+<Device Model="MP2E">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="05">
+      <Device Model="Crestron App" DeviceId="03"/>
+   </Network>
+</Device>
